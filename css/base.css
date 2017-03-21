@@ -1,0 +1,42 @@
+/*
+* @Author: Administrator
+* @Date:   2016-09-30 09:03:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-09-30 10:37:08
+*/
+/* 定义图标 */
+
+/* css初始化 */
+body,p,ul,ol,dl,li,dt,dd,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 13px;
+	font-family: 微软雅黑,sans-serif;
+}
+input,img{
+	outline-style: none;
+	border: 0 none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: #fff;
+}
+.clearfix:after{
+    content: ".";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.clear{
+	zoom: 1;  /* 兼容IE浏览器 */
+}
+.web{
+	width: 1226px;
+	margin: 0 auto;
+}
